@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Desain Logo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MA STORE</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di MA Store</h2>
+        <p>Kami menyediakan jasa desain logo profesional untuk bisnis Anda.</p>
+    </section>
+
+    <section id="services">
+        <h2>Layanan Kami</h2>
+        <p>Kami menawarkan berbagai paket desain logo yang sesuai dengan kebutuhan Anda.</p>
+        <ul>
+            <li>Paket VIP </li>
+            <li>- 15 Desain feed (termasuk carousel)
+                - 7 Desain story
+                - 3 Video reels
+                - Ide konten
+                - Perencanaan konten
+                - Caption
+                </li>
+            <li>Paket Premium</li>
+            <li>
+                - 10 Desain feed (termasuk carousel)
+- 5 Desain story
+- 2 Video reels
+- Ide konten
+- Perencanaan konten
+- Caption
+
+            </li>
+            <li>Paket Biasa</li>
+            <li>
+                - 5 Desain feed (termasuk carousel)
+- 2 Desain story
+- 1 Video reels
+- Ide konten
+- Perencanaan konten
+- Caption
+
+            </li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-gallery">
+            <img src="WhatsApp Image 2024-10-17 at 12.07.45 (8).jpeg" alt="Contoh Logo 1">
+            <img src="WhatsApp Image 2024-10-17 at 12.07.45 (6).jpeg" alt="Contoh Logo 2">
+            <img src="WhatsApp Image 2024-10-17 at 12.07.45 (7).jpeg" alt="Contoh Logo 3">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Order Di Sini</h2>
+        <form id="contact-form">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">NomorHP:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <!-- Pemilihan Paket Jasa -->
+            <label for="service-package">Pilih Paket Jasa:</label>
+            <select id="service-package" name="service-package" required>
+                <option value="">Pilih Paket</option>
+                <option value="basic">Biasa - Rp300,000</option>
+                <option value="standard">Premium - Rp600,000</option>
+                <option value="premium">VIP - Rp900,000</option>
+            </select>
+    
+            <!-- Pemilihan Pembayaran -->
+            <label for="payment-method">Metode Pembayaran:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="">Pilih Metode Pembayaran</option>
+                <option value="credit-card">DANA</option>
+                <option value="bank-transfer">CASH</option>
+                <option value="e-wallet">COD</option>
+            </select>
+    
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 MA Store. Semua Hak Cipta Dilindungi.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
